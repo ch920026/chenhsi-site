@@ -112,7 +112,7 @@ function init() {
   const material = new THREE.ShaderMaterial({
     uniforms: {
       color: { value: new THREE.Color(0xffffff) },
-      pointTexture: { value: new THREE.TextureLoader().load("/website/k.png") },
+      pointTexture: { value: new THREE.TextureLoader().load("/k.png") },
 
       time: { value: 1.0 },
       angle: { value: 0.0 },
@@ -243,7 +243,7 @@ function render() {
 
 function fbx() {
   const loader = new FBXLoader();
-  loader.load("/website/astroChen.fbx", function (object) {
+  loader.load("/astroChen.fbx", function (object) {
     mixer = new THREE.AnimationMixer(object);
 
     const action = mixer.clipAction(object.animations[0]);
