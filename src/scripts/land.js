@@ -35,7 +35,7 @@ const theme = document.getElementById("darkLight");
 
 theme.addEventListener("click", () => {
   darkTheme = document.documentElement.classList.contains("theme-dark");
-  if (!darkTheme) {
+  if (darkTheme) {
     scene.background = new THREE.Color(0x1b242c);
     for (let i = 0; i < 300; i++) {
       starArray[i].material.color.setHex(0xffffff);
