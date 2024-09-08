@@ -24,7 +24,7 @@ tags:
   }
 </style>
 
-Dark Halo is a light installation designed by the French artist team helloBastWorkshop. It uses spinning and LED lights to create the illusion of a dark object inside a cube, while the cube is actually empty. I designed the control system and handled the programming. I used mathematical calculations to project the 3D image onto a 2D plane at the corresponding angles. Since the installation requires significant torque to spin, we used a regular DC motor without a feedback system. The challenge was to use sensors to calculate the motor's precise angle and then do the calculation at real time. For the audience, it appears as though a huge dark object is continually changing shape inside the installation.
+Dark Halo is a light installation designed by the French artist team hellobastworkshop. It uses spinning and LED lights to create the illusion of a dark object inside a cube, while the cube is actually empty. I designed the control system and handled the programming. I used mathematical calculations to project the 3D image onto a 2D plane at the corresponding angles. Since the installation requires significant torque to spin, we used a regular DC motor without a feedback system. The challenge was to use sensors to calculate the motor's precise angle and then do the calculation at real time. For the audience, it appears as though a huge dark object is continually changing shape inside the installation.
 
 <div class="gallery" style="    margin-top:100px;">
 
