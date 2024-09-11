@@ -28,13 +28,13 @@ tags:
 
 ### About The Work
 
-"Alive" is a limited edition in-house installation that tries to capture the image of a city. A city, in essence, is an organic entity shaped by both human-made structures and natural elements such as plants. These two elements interact mutually, resulting in the dynamic appearance of a city. In this installation, printed metal and dried flowers serve as representations of artifacts and natural objects, respectively. The lights within the installation symbolize the passage of time, further enhancing the dynamic and living quality of the urban landscape
+"Alive" is a limited edition in-house installation that tries to capture the image of a city. A city is an organic entity shaped by both human-made structures and natural elements. These two elements interact mutually, resulting in the dynamic appearance of a city. In this installation, printed metal and dried flowers serve as representations of artifacts and natural objects respectively. The lights within the installation symbolize the passage of time, further enhancing the dynamic and living quality of the urban landscape
 
 ### PCB design
 
 This work requires individual LED lights, liquid LEDs, and one long LED strip in the middle. Since the work is meant for close-distance viewing, finding a way to control the LEDs discreetly is crucial.
-Due to the intricate and slender structure of the work, using large DMX-chip LEDs or strips is impractical. We devised a solution by incorporating SPI chips into the control panel to manage the individual small LEDs. This allows us to control each LED with just two wires and transmit the signal continuously.
-Also, the limited space available for the control panel necessitated the design of a custom .
+Due to the slender structure of the work, using large DMX-chip LEDs or strips is impractical. We devised a solution by incorporating SPI chips into the control panel to manage the individual small LEDs. This allows us to control each LED with just two wires.
+Also, the limited space available for the control panel necessitated the design of a custom PCB.
 
 The control panel includes one microcontroller unit, power driver for high-voltage LEDs, and multiple SPI chips. The compact dimensions for the panel (100 mm\*150 mm\*23 mm) presented a challenge. Therefore, I invested considerable time arranging the position of connectors and ICs to ensure the wires could be organized and easily connected during assembly.
 
@@ -55,7 +55,7 @@ The control panel includes one microcontroller unit, power driver for high-volta
 
 ### Light Design
 
-This installation features three types of lights: single SMD LEDs, liquid LEDs, and strips. The central circular strip represents the sun, completing a rotation once a day with a gentle swaying motion. As the direction and color temperature of the light change throughout the day, it creates varying shadows on the trees and buildings in the cityscape.
+This installation features different types of lights. The central circular strip represents the sun, completing a rotation once a day with a gentle swaying motion. As the direction and color temperature of the light change throughout the day, it creates varying shadows on the trees and buildings in the cityscape.
 The SMD LEDs embedded within the printed metal represent the lights inside houses, simulating the glow coming out from people's homes. Meanwhile, the liquid LED strips aim to replicate the effect of strong artificial lights commonly seen in urban environments, such as street lamps or floodlights."
 
 <div class="gallery" style="    margin-top:100px;">

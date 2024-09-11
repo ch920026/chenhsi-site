@@ -48,13 +48,11 @@ tags:
 
 ### About The Work
 
-How do you perceive the wind? Can it be seen? These questions, although cliché, continue to intrigue artists.
-
 Keelung, an essential harbor city in Taiwan, sits at the northern tip of the Jiali Mountains, overlooking the confluence of the East China Sea and the Pacific Ocean. Inspired by Keelung's distinctive harbor-side culture, 'Tender Soul of Ocean' aims to delve into the city's relationship with the sea.
 
 The installation's design mimics the shape of waves. By detecting real-time wind strength and direction, we translate this data into patterns of light. Our objective is to seamlessly connect the audience's experience of the wind with the flow of lights as they enter the installation.
 
-For this installation WHYIXD cooperated with Liquidleds Lighting Corporation. Their leds can provide a smooth and strong led light directly, which allows the installation appearance to be concise and elegant. The LEDs are hang with stainless wirer and electricity is transported through the stainless wires directly.
+For this installation WHYIXD cooperated with Liquidleds Lighting Corporation. Their leds can provide a smooth and strong led light directly, which allows the installation appearance to be concise and elegant.
 
 ### Light Deisgn
 
@@ -62,7 +60,7 @@ The installation equipped with wind speed and direction sensor. The sensed data 
 
 I designed three light patterns corresponding to different wind intensities: breeze, moderate, and strong. The breeze pattern features thin lines, mimicking the subtle sensation of a gentle breeze passing through. As the wind strengthens to a moderate level, the patterns transition into gradients that cover the entire area, creating a sense of being enveloped by a vast expanse of wind. Finally, for strong winds, numerous rapidly moving particles are employed to simulate the chaotic sensation of a powerful wind disrupting everything in its path.
 
-Despite the wind patterns, a light show occurs every 15 minutes. Comparing to the organic and random style of wind patterns, I designed the show with a relatively electric and digital style. Utilizing simple geometric patterns, the lights flash rapidly and consistently.
+Despite the wind patterns, a light show occurs every 15 minutes. Comparing to the organic and random style of wind patterns, I designed the show with a relatively electric and digital style. I Utilized simple geometric patterns and make the lights flash rapidly and consistently.
 
 <div class="ingallery">
   <div class="arrayItem"  >

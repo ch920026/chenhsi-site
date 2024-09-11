@@ -31,11 +31,11 @@ Vicious Circularity is an art project by artist Ni Hao. Part of the project invo
 
 ### Control System
 
-Since these are real motorized scooters with engines, the project carries inherent dangers. As an engineer, controlling four scooters presents three major challenges. The first challenge is managing the motor's throttle, which involves understanding the gas control mechanism and the scooter's circuitry, then integrating them into the control system. The second challenge is maintaining a stable connection between the controller and the scooters at all times. The final challenge is handling four connections simultaneously without causing data traffic jams and ensuring acceptable delay times.
+Since these are real motorized scooters with engines, the project carries inherent dangers. Ccontrolling four scooters presents three major challenges. The first challenge is managing the motor's throttle, which involves understanding the gas control mechanism and the scooter's circuitry, then integrating them into the control system. The second challenge is maintaining a stable connection between the controller and the scooters at all times. The final challenge is handling four connections simultaneously without causing data traffic jams and ensuring acceptable delay times.
 
 #### Throttle Control
 
-For throttle control, we decided to use the original method of cable-controlled valves, but with modifications. We moved the throttle cable from the handle to the motor and added a sensor to detect whether the valve is securely closed, preventing the scooter from surging when the engine starts. This setup also ensures that the valve automatically returns to its default position when the scooter stops, avoiding fuel leakage.
+For throttle control, we decided to use the original method of cable-controlled valves. We moved the throttle cable from the handle to the motor and added a sensor to detect whether the valve is securely closed, preventing the scooter from surging when the engine starts. This setup also ensures that the valve automatically returns to its default position when the scooter stops, avoiding fuel leakage.
 
 #### Wireless Module
 
