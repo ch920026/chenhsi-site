@@ -32,7 +32,7 @@ function prepare() {
     const password = document.getElementById("password").value;
     const hash = md5(password);
     try {
-      if (hash == "fc9dd304468e3bedac00efbe78bbef85") {
+      if (hash == "fd15a542da68307f1223b82f6b13ea3a") {
         passwordSection.remove();
         wrap.append(article);
       } else {
